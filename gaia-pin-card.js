@@ -72,8 +72,7 @@
         }
       }
     },
-    template: `<script src="../../../../../script2.js"></script>
-       <article class="pin-card no-content">
+    template: `<article class="pin-card no-content">
         <gaia-site-icon></gaia-site-icon>
         <div class="background"></div>
         <header></header>
