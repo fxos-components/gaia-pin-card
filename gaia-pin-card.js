@@ -121,6 +121,7 @@
           position: absolute;
           top: -1.5rem;
           left: calc(50% - 1.5rem);
+          z-index: 1;
         }
 
         .pin-card header {
