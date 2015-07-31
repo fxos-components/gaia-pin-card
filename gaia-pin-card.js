@@ -15,6 +15,7 @@
       this.setupShadowRoot();
       this.container = this.shadowRoot.querySelector('.pin-card');
       this.bgElement = this.shadowRoot.querySelector('.background');
+      this.iconElement = this.shadowRoot.querySelector('gaia-site-icon');
       this.descElement = this.shadowRoot.querySelector('.description');
       this.titleElement = this.shadowRoot.querySelector('header');
       this.iconElement = this.shadowRoot.querySelector('gaia-site-icon');
@@ -53,8 +54,8 @@
         get: function() {
           return this.iconElement.background;
         },
-        set: function(icon) {
-          this.iconElement.background = icon.url;
+        set: function(iconUrl) {
+          this.iconElement.background = iconUrl;
         }
       },
       description: {

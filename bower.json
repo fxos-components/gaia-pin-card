@@ -23,6 +23,7 @@
     "base": "gaia-components/base"
   },
   "dependencies": {
-    "gaia-component": "gaia-components/gaia-component#~0.3.6"
+    "gaia-component": "gaia-components/gaia-component",
+    "gaia-site-icon": "gaia-components/gaia-site-icon"
   }
 }
