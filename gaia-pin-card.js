@@ -1,4 +1,4 @@
-/* globals define */
+/* globals define, require, exports, module */
 (function(define){'use strict';define(function(require,exports,module){
 
   /**
