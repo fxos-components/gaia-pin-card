@@ -152,7 +152,7 @@
 
   function getColorCodes(color) {
     var colorCodes = /rgb\((\d+), (\d+), (\d+)\)/.exec(color);
-    return colorCodes;
+    return colorCodes || ['#FFF'];
   }
 
   function getBrightness(colorCodes) {
